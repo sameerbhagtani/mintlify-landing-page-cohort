@@ -36,9 +36,26 @@ a:hover {
 }
 
 :root {
+    --color-background-main: #ffffff;
+    --color-background-invert: #08090a;
+    --color-text-main: #08090a;
+    --color-text-invert: #ffffff;
+    --color-text-soft: #08090acc;
+    --color-text-sub: #08090a99;
+    --color-muted: #08090a80;
+    --color-border-sub: #08090a12;
+    --color-background-soft: #08090a08;
+    --color-border-surface: #08090a0d;
+    --color-border-soft: #08090a26;
+    --color-brand: #0c8c5e;
+    --color-brand-light: #0c8c5e;
+    --color-border-solid: #08090a;
+    --color-muted-invert: #ffffff80;
 }
 
 body {
     font-family: "Inter", sans-serif;
-    /* font-family: "Geist Mono", monospace; */
+
+    background-color: var(--color-background-main);
+    color: var(--color-text-main);
 }

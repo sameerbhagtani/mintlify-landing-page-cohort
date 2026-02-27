@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <title>Mintlify - The Intelligent Documentation Platform</title>
         <meta
             name="description"
@@ -14,13 +15,76 @@
             type="image/x-icon"
         />
         <link rel="stylesheet" href="./css/root.css" />
+        <link rel="stylesheet" href="./css/nav.css" />
+        <link rel="stylesheet" href="./css/hero.css" />
     </head>
     <body>
         <header>
-            <nav></nav>
+            <nav>
+                <div id="nav-left">
+                    <a href="">
+                        <img
+                            src="./assets/images/logo.svg"
+                            alt="Mintlify logo"
+                        />
+                    </a>
+                </div>
+
+                <div id="nav-center">
+                    <ul>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">Documentation</a></li>
+                        <li><a href="">Customers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div id="nav-right">
+                    <button type="button" id="contact-sales">
+                        Contact sales
+                    </button>
+                    <button type="button" id="start-for-free">
+                        Start for free
+                    </button>
+                    <button type="butotn" id="menu">
+                        <img src="./assets/icons/menu.svg" alt="Menu icon" />
+                    </button>
+                </div>
+            </nav>
         </header>
 
-        <main></main>
+        <main>
+            <section id="hero">
+                <div id="hero-bg"></div>
+
+                <div id="hero-content">
+                    <h1>The Intelligent Knowledge Platform</h1>
+
+                    <p>
+                        Helping teams create and maintain world-class
+                        documentation built for both humans and AI
+                    </p>
+
+                    <form>
+                        <input
+                            type="email"
+                            placeholder="Email address"
+                            name="email"
+                            id="email"
+                        />
+                        <button type="submit">Start now</button>
+                    </form>
+                </div>
+
+                <div id="hero-image">
+                    <img
+                        src="./assets/images/hero-image.svg"
+                        alt="Hero illustration"
+                    />
+                </div>
+            </section>
+        </main>
 
         <footer></footer>
     </body>
