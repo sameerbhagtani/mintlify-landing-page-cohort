@@ -1,0 +1,29 @@
+section#brands {
+    width: 100%;
+
+    padding: 4.5rem 2rem 9rem 2rem;
+}
+
+section#brands > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+section#brands > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2.5rem;
+    width: 120px;
+}
+
+section#brands > div > div > img {
+    width: 100%;
+}
