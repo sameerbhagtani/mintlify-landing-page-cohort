@@ -1,7 +1,8 @@
 section#brands {
     width: 100%;
 
-    padding: 4.5rem 2rem 9rem 2rem;
+    margin-top: 6rem;
+    margin-bottom: 9rem;
 }
 
 section#brands > div {
@@ -13,6 +14,8 @@ section#brands > div {
 
     max-width: 64rem;
     margin: 0 auto;
+
+    padding-inline: 2rem;
 }
 
 section#brands > div > div {

@@ -7,7 +7,7 @@ header {
 
     backdrop-filter: blur(14px);
 
-    color: var(--color-text-invert);
+    color: var(--color-text-main);
 }
 
 nav {
@@ -71,10 +71,10 @@ nav > #nav-right > button#contact-sales {
 }
 
 nav > #nav-right > button#start-for-free {
-    background-color: var(--color-background-main);
-    color: var(--color-text-main);
+    background-color: var(--color-background-invert);
+    color: var(--color-text-invert);
 
-    border: 1px solid var(--color-text-invert);
+    border: 1px solid var(--color-text-main);
 
     font-weight: 500;
 

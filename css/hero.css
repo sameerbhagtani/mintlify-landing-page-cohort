@@ -110,7 +110,7 @@ section#hero > #hero-content > form > button {
 }
 
 section#hero > #hero-image {
-    border: 2px solid var(--color-background-soft);
+    border: 20px solid var(--color-background-soft);
     overflow: hidden;
 
     border-radius: 10px 10px 0 0;
@@ -137,6 +137,7 @@ section#hero > #hero-image > img {
 
     section#hero > #hero-image {
         border-width: 3px;
+        border-bottom-width: 0px;
         border-radius: 1.5rem 1.5rem 0 0;
     }
 }

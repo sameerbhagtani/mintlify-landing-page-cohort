@@ -1,0 +1,116 @@
+section#intelligence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    max-width: 64rem;
+    margin: 0 auto;
+
+    padding-inline: 1.5rem;
+
+    margin-block: 7rem;
+}
+
+section#intelligence > h2 {
+    font-weight: 600;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+
+    line-height: 110%;
+
+    text-wrap: balance;
+
+    text-align: center;
+}
+
+section#intelligence > p {
+    color: var(--color-text-soft);
+
+    text-wrap: balance;
+
+    max-width: 40.5rem;
+
+    text-align: center;
+}
+
+section#intelligence > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section#intelligence article {
+    border: 1px solid var(--color-border-sub);
+    border-radius: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+section#intelligence article > div {
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+section#intelligence article > div > p#subtitle {
+    color: var(--color-brand);
+    font-weight: 500;
+    line-height: 150%;
+
+    font-size: 0.75rem;
+    font-family: "Geist Mono", monospace;
+
+    letter-spacing: 0.6px;
+
+    text-wrap: pretty;
+}
+
+section#intelligence > article > div {
+    align-items: center;
+
+    text-align: center;
+}
+
+section#intelligence article > div > h3 {
+    color: var(--color-text-main);
+    font-weight: 500;
+
+    text-wrap: balance;
+    letter-spacing: -0.2px;
+
+    font-size: 1.25rem;
+}
+
+section#intelligence article > div > p#para {
+    color: var(--color-text-soft);
+
+    text-wrap: balance;
+
+    line-height: 1.5;
+}
+
+section#intelligence article > video {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    section#intelligence article > div > h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    section#intelligence > div {
+        flex-direction: row;
+    }
+}
