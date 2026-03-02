@@ -97,7 +97,7 @@ section#customers > #customer-stories > #perplexity > div > img {
 }
 
 section#customers > #customer-stories > #perplexity > div {
-    background-image: url("/assets/images/perplexity-customer.webp");
+    background-image: url("../assets/images/perplexity-customer.webp");
 }
 
 section#customers > #customer-stories > #perplexity > div > img {
@@ -106,35 +106,35 @@ section#customers > #customer-stories > #perplexity > div > img {
 }
 
 section#customers > #customer-stories > #x > div {
-    background-image: url("/assets/images/x-customer.webp");
+    background-image: url("../assets/images/x-customer.webp");
 }
 
 section#customers > #customer-stories > #kalshi > div {
-    background-image: url("/assets/images/kalshi-customer.webp");
+    background-image: url("../assets/images/kalshi-customer.webp");
 }
 
 section#customers > #customer-stories > #cognition > div {
-    background-image: url("/assets/images/cognition-customer.webp");
+    background-image: url("../assets/images/cognition-customer.webp");
 }
 
 section#customers > #customer-stories > #togetherai > div {
-    background-image: url("/assets/images/togetherai-customer.webp");
+    background-image: url("../assets/images/togetherai-customer.webp");
 }
 
 section#customers > #customer-stories > #laravel > div {
-    background-image: url("/assets/images/laravel-customer.webp");
+    background-image: url("../assets/images/laravel-customer.webp");
 }
 
 section#customers > #customer-stories > #replit > div {
-    background-image: url("/assets/images/replit-customer.webp");
+    background-image: url("../assets/images/replit-customer.webp");
 }
 
 section#customers > #customer-stories > #glean > div {
-    background-image: url("/assets/images/glean-customer.webp");
+    background-image: url("../assets/images/glean-customer.webp");
 }
 
 section#customers > #customer-stories > #lovable > div {
-    background-image: url("/assets/images/lovable-customer.webp");
+    background-image: url("../assets/images/lovable-customer.webp");
 }
 
 section#customers > #customer-stories > #lovable > div > img {
@@ -143,19 +143,19 @@ section#customers > #customer-stories > #lovable > div > img {
 }
 
 section#customers > #customer-stories > #vercel > div {
-    background-image: url("/assets/images/vercel-customer.webp");
+    background-image: url("../assets/images/vercel-customer.webp");
 }
 
 section#customers > #customer-stories > #fidelity > div {
-    background-image: url("/assets/images/fidelity-customer.webp");
+    background-image: url("../assets/images/fidelity-customer.webp");
 }
 
 section#customers > #customer-stories > #anaconda > div {
-    background-image: url("/assets/images/anaconda-customer.webp");
+    background-image: url("../assets/images/anaconda-customer.webp");
 }
 
 section#customers > #customer-stories > #loops > div {
-    background-image: url("/assets/images/loops-customer.webp");
+    background-image: url("../assets/images/loops-customer.webp");
 }
 
 section#customers > #customer-stories > article > p {
