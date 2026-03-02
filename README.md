@@ -26,3 +26,5 @@ git clone https://github.com/sameerbhagtani/mintlify-landing-page-cohort
 - **Asset Optimization:** Integrated brand-specific assets and SVGs for crisp, high-performance rendering.
 
 ## Live Demo
+
+https://github.com/user-attachments/assets/4bb4aeef-6f24-4a2c-a68b-0f649632dd8d
