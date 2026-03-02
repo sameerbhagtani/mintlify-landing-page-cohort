@@ -27,4 +27,4 @@ git clone https://github.com/sameerbhagtani/mintlify-landing-page-cohort
 
 ## Live Demo
 
-https://github.com/user-attachments/assets/4bb4aeef-6f24-4a2c-a68b-0f649632dd8d
+https://github.com/user-attachments/assets/55c33221-50fd-436a-b10c-fc72eaeb1809
