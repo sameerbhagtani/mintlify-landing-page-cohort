@@ -1,0 +1,157 @@
+section#get-started {
+    max-width: 64rem;
+    margin: 10rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    text-align: center;
+
+    padding-inline: 3rem;
+}
+
+section#get-started > #get-started-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+section#get-started > #get-started-top > h3 {
+    letter-spacing: -0.8px;
+    font-weight: 600;
+    line-height: 110%;
+    font-size: 40px;
+    max-width: 560px;
+    text-wrap: balance;
+}
+
+section#get-started > #get-started-top > p {
+    text-wrap: balance;
+    line-height: 150%;
+    max-width: 560px;
+}
+
+section#get-started > #get-started-top > #get-started-top-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+section#get-started
+    > #get-started-top
+    > #get-started-top-buttons
+    > button:first-child {
+    background-color: var(--color-background-invert);
+    color: var(--color-text-invert);
+
+    border: 1px solid var(--color-text-main);
+
+    font-weight: 500;
+
+    padding: 0.4375rem 1.5rem;
+    border-radius: 9999px;
+
+    flex-shrink: 0;
+}
+
+section#get-started
+    > #get-started-top
+    > #get-started-top-buttons
+    > button:nth-child(2) {
+    font-weight: 500;
+
+    padding: 0.4375rem 1.5rem;
+    background-color: var(--color-background-main);
+
+    border: 1px solid var(--color-border-soft);
+
+    border-radius: 9999px;
+    white-space: nowrap;
+
+    flex-shrink: 0;
+}
+
+section#get-started > #get-started-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+section#get-started > #get-started-bottom > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    padding: 2rem;
+}
+
+section#get-started > #get-started-bottom > div > div {
+    padding: 0.625rem;
+
+    border: 0.5px solid var(--color-border-soft);
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#get-started > #get-started-bottom > div > div > img {
+    height: 32px;
+    width: 32px;
+}
+
+section#get-started > #get-started-bottom > div > h4 {
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    line-height: 130%;
+    font-size: 1.25rem;
+
+    text-wrap: balance;
+}
+
+section#get-started > #get-started-bottom > div > p {
+    line-height: 150%;
+    text-wrap: pretty;
+}
+
+section#get-started > #get-started-bottom > div > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.375rem;
+
+    color: var(--color-brand);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+section#get-started > #get-started-bottom img {
+    width: 20px;
+}
+
+@media (min-width: 610px) {
+    section#get-started > #get-started-bottom {
+        flex-direction: row;
+    }
+
+    section#get-started > #get-started-bottom > div:first-child {
+        border-right-style: solid;
+        border-right-width: 1px;
+
+        border-color: var(--color-border-surface);
+    }
+}

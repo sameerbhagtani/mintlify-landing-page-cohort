@@ -62,7 +62,7 @@ section#intelligence article > div {
     gap: 1rem;
 }
 
-section#intelligence article > div > p#subtitle {
+section#intelligence article > div > p.subtitle {
     color: var(--color-brand);
     font-weight: 500;
     line-height: 150%;
@@ -91,7 +91,7 @@ section#intelligence article > div > h3 {
     font-size: 1.25rem;
 }
 
-section#intelligence article > div > p#para {
+section#intelligence article > div > p.intelligence-para {
     color: var(--color-text-soft);
 
     text-wrap: balance;
